@@ -163,7 +163,9 @@ Lo segundo será automatizar en lo posible (y no siempre es muy posible.. al men
 
 ---
 
-Si escribo una linea
 
-y luego otra abajo.
-
+Cuando montamos un bot, el bot realmente son varias partes:
+- Programa que va generando el html (BOT)
+- Programa que recibe las peticiones del usuario y las manda al modelo de IA (SERVICIO BOT)
+- Modelo de IA que responde a las preguntas del usuario (LANGUAGE MODEL)
+  ^^^^ A este modelo es al que interrogamos con la URL de ayer (PREDICTION URL)
